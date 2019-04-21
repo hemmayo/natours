@@ -10,6 +10,8 @@
     background-position: top;
     padding: 3rem;
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    -moz-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 
     &__logo-box {
         position: absolute;
