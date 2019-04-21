@@ -60,6 +60,8 @@
         clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
         -moz-clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
 
         &--1 {
             background-image: /*linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), */

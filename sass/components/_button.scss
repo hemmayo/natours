@@ -55,6 +55,16 @@
         }
     }
 
+    &.btn--green {
+        color: $color-white;
+        background-color: $color-primary;
+
+        &:hover {
+            background-color: $color-white;
+            color: $color-primary;
+        }
+    }
+
 }
 
 .btn-text {
