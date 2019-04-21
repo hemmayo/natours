@@ -16,21 +16,6 @@
         animation: move-in-bottom .5s ease-out .5s backwards;
     }
 
-    &:hover {
-        transform: translateY(-3px);
-        box-shadow: 0 1rem 2rem rgba($color-black, .2);
-
-        ::after {
-            transform: scale(1.5);
-            opacity: 0;
-        }
-    }
-
-    &:active {
-        transform: translateY(-1px);
-        box-shadow: 0 .5rem 1rem rgba($color-black, .2)
-    }
-
     &::after {
         content: '';
         display: inline-block;
@@ -43,6 +28,23 @@
         z-index: -1;
         transition : .4s all;
     }
+
+    &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 1rem 2rem rgba($color-black, .2);
+
+        &::after {
+            transform: scale(1.5);
+            opacity: 0;
+        }
+    }
+
+    &:active {
+        transform: translateY(-1px);
+        box-shadow: 0 .5rem 1rem rgba($color-black, .2)
+    }
+
+    
 
     &.btn--white {
         color: $color-grey-dark;
