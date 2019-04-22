@@ -4,6 +4,7 @@
     position: relative;
     height: 50rem;
     -moz-perspective: 150rem;
+    -webkit-perspective: 150rem;
 
     &__side {
         position: absolute;
@@ -17,14 +18,12 @@
         overflow: hidden;
         text-align: center;
         box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
-        // padding: 2rem;
 
         &--front {
             background-color: $color-white;
         }
 
         &--back {
-            background-color: green;
             transform: rotateY(180deg);
 
             &-1 {
