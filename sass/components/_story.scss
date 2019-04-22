@@ -2,7 +2,7 @@
     width: 75%;
     margin: 0 auto;
     box-shadow: 0 3rem 6rem rgba($color-black, .15);
-    background-color: rgba($color-white, 1);
+    background-color: rgba($color-white, .6);
     border-radius: 4px;
     padding: 6rem;
     padding-left: 8rem;
@@ -11,7 +11,7 @@
 
     &> * * {
         transform: skewX(12deg);
-        transition: all .5s ease-in-out;
+        transition: all .3s ease-in-out;
     }
 
     &__shape {
@@ -19,7 +19,6 @@
         width: 15rem;
         height: 15rem;
         float: left;
-        background-color: orangered;
         shape-outside: circle(50% at 50% 50%);
         -webkit-shape-outside: circle(50% at 50% 50%);
         -moz-shape-outside: circle(50% at 50% 50%);
